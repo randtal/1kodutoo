@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="kell.js"></script>
+    <link rel="stylesheet" href="kell.css">
+    <title>Kell</title>
+  </head>
+  <body>
+
+      <!-- ANALOOG KELL -->
+      <div id="analoog">
+        <article class="clock">
+          <div class="hours-container">
+            <div class="hours"></div>
+          </div>
+          <div class="minutes-container">
+            <div class="minutes"></div>
+          </div>
+          <div class="seconds-container">
+            <div class="seconds"></div>
+          </div>
+        </article>
+      </div>
+
+    <!-- DIGITAALNE KELL -->
+    <div id="clockContainer"></div>
+      <br>
+      <hr>
+      <div id="dayContainer"></div>
+      <div class="buttonid">
+
+        <button type="button" onclick="must()">Must</button>
+        <button type="button" onclick="valge()">Valge</button>
+
+      </div>
+
+      <!-- KELLA MUUTMIS NUPP -->
+      <div class="buttonid">
+        <button type="button" onclick="changeToAnalog()">Analoog</button>
+        <button type="button" onclick="changeToDigital()">Digitaalne</button>
+      </div>
+  </body>
+  <footer>
+    <p>Lehe looja: Rando Talviste</p>
+    <form action="https://github.com/randtal/kodutoo1">
+      <button>Github</button>
+    </form>
+  </footer>
+</html>

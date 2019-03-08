@@ -1,0 +1,29 @@
+body {
+  padding-top: 60px;
+  padding-right: 105px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+#clockContainer{
+  font-family: sans-serif;
+  font-size: 45px;
+}
+
+#dayContainer{
+  font-size: 25px;
+}
+
+button {
+  background: transparent;
+  color: black;
+  border: 2px solid #000000;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 11px;
+}
+
+.buttonid  {
+  margin-left: 25%;
+}
